@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "logsensei"
+version = "0.0.1"
+description = "later on"
+authors = ["Wittaya Tangdorn"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13.0"
+typer = "^0.12.5"
+rich = "^13.9.4"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+black = "^24.10.0"
+mypy = "^1.13.0"
+flake8 = "^7.1.1"
+pre-commit = "^4.0.1"
+
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
