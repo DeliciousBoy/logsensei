@@ -1,1 +1,1 @@
-![logsensei logo](L.png)
+![logsensei logo](assets/L.png)
